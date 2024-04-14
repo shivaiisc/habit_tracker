@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 
-st.set_page_config(page_title="Habit Tracker", page_icon="📅", layout="wide")
+st.set_page_config(page_title="Habit Tracker", page_icon=":100:", layout="wide")
 
 st.title("Habit Tracker")
 
