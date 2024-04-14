@@ -29,6 +29,7 @@ caption = {'Samyama': 'Samyama is a state where you become fully aware that you 
 st.set_page_config(page_title="Habit Tracker", page_icon=":100:", layout="wide")
 
 st.title("Habit Tracker")
+st.header('Consistency is the key.')
 is_img_shown =False
 
 df = pd.read_csv('tracker.csv')
@@ -57,6 +58,7 @@ for column in df.columns:
 
 
 st.header('Last 3 days:')
+
 
 st.write(df.tail(3))
 
